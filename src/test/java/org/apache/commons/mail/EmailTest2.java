@@ -11,7 +11,6 @@ public class EmailTest2 extends TestCase{
 	public void setUp() {
 		testEmail = new SimpleEmail();
 	}
-	@Test
 	public void test_addReplyTo() throws EmailException {
 		System.out.println("This is a message from the HKY test.");
 		testEmail.addReplyTo("a@b.com","tom");
